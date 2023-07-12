@@ -1,0 +1,6 @@
+- Setelah install sequelize , Pertama lakukan initialisasi sequelize dengan cara:
+    ~ npx sequelize-cli init
+- Membuat desain table menggunakan sequelize-cli:
+    ~ npx sequelize-cli model:generate --name Tablename --attributes fieldOne:string,fieldOne:string,fieldThree:string
+- Migrate desain table yg sudah ada ke database:
+    ~ npx sequelize-cli db:migrate
